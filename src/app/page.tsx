@@ -43,7 +43,7 @@ export default function Home() {
     return (
         <div className="space-y-8">
             <div className="space-y-2">
-                <h2 className="text-3xl font-bold">Content Checker Demo</h2>
+                <h2 className="text-3xl font-bold">OpenModerator Demo</h2>
                 <p className="text-gray-500 dark:text-gray-400">Please enter text to check if it&apos;s profane or not.</p>
             </div>
             <form onSubmit={checkProfanity} className="space-y-4">
